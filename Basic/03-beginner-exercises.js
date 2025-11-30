@@ -53,10 +53,74 @@ console.log(typeof variableBigInt)
 
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
 
+variableString= "nueva cadena de texto"
+variableNumber= 23
+variableBooleana= false
+variableBigInt= BigInt('09876543456789')
+
+console.log("/////////////////")
+console.log("/////////////////")
+console.log(variableString)
+console.log(variableNumber)
+console.log(variableBooleana)
+console.log(variableIndefinida)
+console.log(variableNula)
+console.log(variableBigInt)
+
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
+
+variableString= 44
+variableNumber= "no va a funcionar (creo)"
+variableBooleana= 22
+
+console.log("/////////////////")
+console.log("/////////////////")
+console.log("/////////////////")
+console.log(variableString)
+console.log(variableNumber)
+console.log(variableBooleana)
+
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
+const variableStringConst= "cadena de texto constante"
+const variableNumberConst= 22
+const variableBooleanaConst= true
+//const variableIndefinidaConst
+const variableNulaConst= null
+const variableBigIntConst= BigInt(3456896789)
+
+console.log("/////////////////")
+console.log("/////////////////")
+console.log("/////////////////")
+console.log("/////////////////")
+
+console.log(variableStringConst)
+console.log(variableNumberConst)
+console.log(variableBooleanaConst)
+console.log(variableNulaConst)
+console.log(variableBigIntConst)
+
 // 9. A continuación, modifica los valores de las constantes
 
+//NO DEJA NINGUNA PORQUE SON CONSTANTES :))
+//variableStringConst= "intento de cambiar la cadena constante"
+//variableNumberConst= 44
+//variableBooleanaConst= false
+//variableBigIntConst= BigInt(677889348990832)
+
+console.log("/////////////////")
+console.log("/////////////////")
+console.log("/////////////////")
+console.log("/////////////////")
+console.log("/////////////////")
+
+
+console.log(variableStringConst)
+console.log(variableNumberConst)
+console.log(variableBooleanaConst)
+console.log(variableBigIntConst)
+
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
+
+//YA
